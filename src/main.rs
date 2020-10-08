@@ -9,7 +9,7 @@ use structopt::StructOpt;
 const WLOG_VERSION: &str = env!("WLOG_VERSION");
 
 #[derive(Clone, Debug, StructOpt)]
-#[structopt(name = "russ", version = crate::WLOG_VERSION)]
+#[structopt(name = "wlog", version = crate::WLOG_VERSION)]
 struct Options {
     /// Time in ms between two ticks
     #[structopt(short = "n", long = "interval", default_value = "2")]
