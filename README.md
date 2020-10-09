@@ -40,7 +40,7 @@ FLAGS:
 
 OPTIONS:
     -f, --file <output>         Log output to a file
-    -n, --interval <seconds>    Time in ms between two ticks [default: 2]
+    -n, --interval <seconds>    Time in seconds between two ticks [default: 2]
 
 ARGS:
     <command>    The command to repeat
